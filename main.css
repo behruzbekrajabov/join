@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: aquamarine;
+    background: linear-gradient(180deg, lightblue, lightpink, #fff);
+    width: 100%;
+    min-height: 100vh;
+}
+.quiz-input-group{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz-input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+}
+.quiz-btn-join{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+
+}
