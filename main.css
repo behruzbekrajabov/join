@@ -1,33 +1,55 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.container {
-    background-color: aquamarine;
-    background: linear-gradient(180deg, lightblue, lightpink, #fff);
-    width: 100%;
-    min-height: 100vh;
-}
-.quiz-input-group{
+.container{
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
-.logo{
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.quiz-input{
+.input{
     border: none;
     outline: none;
+    background-color: transparent;
+
+}
+.form{
+    background-color: rgba(30, 255, 0, 0.897);
     border-radius: 30px;
-
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
-.quiz-btn-join{
+.but{
+    background-color: transparent;
     border: none;
+    padding: 10px;
     outline: none;
+    animation-name: but1;
+    animation-iteration-count: infinite;
+}
+.but:hover{
+    background-color: rgb(9, 255, 0);
+    border: 1px solid red;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.form:hover{
+    border: 1px solid rgb(4, 0, 255);
+}
+.h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: blueviolet;
+}
+.h1:active{
+    cursor: copy;
+}
+.but:active{
     background-color: blue;
-    color: white;
-
 }
